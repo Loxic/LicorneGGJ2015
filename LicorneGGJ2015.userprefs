@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\Settings.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\PauseMenu.cs">
     <Files>
-      <File FileName="Assets\Scripts\UI\Exit.cs" Line="6" Column="8" />
-      <File FileName="Assets\Scripts\UI\Settings.cs" Line="9" Column="3" />
+      <File FileName="Assets\Scripts\UI\MainMenu.cs" Line="13" Column="42" />
+      <File FileName="Assets\Scripts\UI\PauseMenu.cs" Line="18" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

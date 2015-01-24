@@ -1,3 +1,7 @@
 Temp/UnityLockfile
 *.meta
 *.csproj
+Library/metadata
+Temp/
+Library/
+Library/ScriptAssemblies
