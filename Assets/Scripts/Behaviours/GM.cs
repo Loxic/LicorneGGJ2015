@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 public class GM : MonoBehaviour {
 
+	// Global
+	static public bool choosing = false;
+
 	// Ressources
 	static int firewood = 0, food = 0, keys = 0; // measure in units
 
@@ -28,11 +31,12 @@ public class GM : MonoBehaviour {
 		{
 			gOList.Add(byTags[i]);
 		}
+
+
 	}
 
 
 	void Update () {
-	
 	}
 
 
@@ -85,7 +89,6 @@ public class GM : MonoBehaviour {
 		switch(reference)
 		{
 		case 1:
-
 			break;
 		case 2:
 			break;
@@ -153,8 +156,6 @@ public class GM : MonoBehaviour {
 				}
 			}
 			UpdateTimeState();
-			Debug.Log(hour);
-			Debug.Log(currentState);
 		}
 	}
 
