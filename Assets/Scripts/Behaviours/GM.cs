@@ -8,12 +8,14 @@ public class GM : MonoBehaviour {
 	static int firewood = 0, food = 0, keys = 0; // measure in units
 
 	// Time system variables
-	static int day = 0, hour = 0;
+	static float day = 0, hour = 0;
 	static string currentState = "day";
 	static bool stopBigBen = false;
+	static int countDownBeforeDoom = -1;
 
 	// event material
 	static List<GameObject> gOList;
+	bool win = false;
 
 	void Start () {
 		StartCoroutine(BigBen());
@@ -42,6 +44,11 @@ public class GM : MonoBehaviour {
 		Application.LoadLevel(Application.loadedLevel);
 	}
 
+	public void GameOver(string statement)
+	{
+		
+	}
+
 	public void GoToWoods(string direction)
 	{
 		if(direction == "north")
@@ -54,8 +61,8 @@ public class GM : MonoBehaviour {
 			Application.LoadLevel("WestScene");
 		else
 			Debug.Log("Tu t'es trompé :/");
-
 	}
+
 
 
 
@@ -96,22 +103,58 @@ public class GM : MonoBehaviour {
 
 	public void UpdateTimeState()
 	{
-		currentState = "";
+		if(countDownBeforeDoom == -1)
+		{
+			if((0 < hour && hour < 7 ) || (19 < hour))
+			{
+				currentState = "NIGHT";
+			}
+			else if(7 < hour && hour < 19)
+			{
+				currentState = "DAY";
+			}
+			else
+			{
+				Debug.Log("DAFUQ");
+			}
+		}
+		else
+		{
+			if((0 < hour && hour < 7 + 12/(countDownBeforeDoom/2) ) || (19 - 12/(countDownBeforeDoom/2) < hour))
+			{
+				currentState = "NIGHT";
+			}
+			else if(7 - 12/(countDownBeforeDoom/1.5) < hour && hour < 12/(countDownBeforeDoom/1.5) + 19)
+			{
+				currentState = "DAY";
+			}
+			else
+			{
+				Debug.Log("DAFUQ");
+			}
+		}
 	}
 
 	IEnumerator BigBen()
 	{
 		while(!stopBigBen)
 		{
-			yield return new WaitForSeconds(120);
-			hour ++;
+			yield return new WaitForSeconds(20);
+			hour += 0.5f;
 
 			if(hour == 24)
 			{
 				hour = 0;
 				day++;
 				CheckForEvent();
+				if(countDownBeforeDoom > 0)
+				{
+					countDownBeforeDoom --;
+				}
 			}
+			UpdateTimeState();
+			Debug.Log(hour);
+			Debug.Log(currentState);
 		}
 	}
 

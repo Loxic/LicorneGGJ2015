@@ -1,12 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/*
-				CLASSE DES OBJETS A EVENEMENTS
-				PROGRAMMÉS
-*/
-
-
 public class EventScript : MonoBehaviour {
 
 

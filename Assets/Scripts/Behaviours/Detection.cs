@@ -1,12 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/*
-
-				ATTACHER AU PLAYER
-*/
-
-
 public class Detection : MonoBehaviour {
 
 	Ray rayMouse;
@@ -31,7 +25,7 @@ public class Detection : MonoBehaviour {
 	
 		if(Physics.Raycast(rayMouse, out hit)){//si la souris rencontre l'objet "hit" on fait quelqu chose
 			if(hit.collider.transform.tag == "pickUp"){
-				if(Input.GetMouseButton(0)){	
+				if(Input.GetMouseButton(0)){
 					pickUp(hit.collider.gameObject);
 				}
 			}
