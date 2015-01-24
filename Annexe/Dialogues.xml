@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Prologue rencontre BadAss -->
+<dials>
+<dial num="1">Okay kid, we'll need to gather firewood and food while the sun still shines. I'll take care of the food, just concentrate on firewood for today. Go check out the eastern sector of the woods. Carefull not to adventure yourself to far though. We wouldn&#x27;t want you to disappear now, would we ?
+</dial>
+
+<!-- Jour  - -->
+<dial num="2">Hey ! Good work kid ! This should see us through the night.
+See this green key I have here ? I believe that there are three more more in this forest. I've also been lid to think that obtaining all four of these keys should enable us to escape this place.
+Ah... But don't take an old man rambling too seriously, 'just repeating what said the elder. Go get some rest. you'll need it tomorrow.
+</dial>
+
+
+<!-- Jour  - -->
+<dial num="3">Slept well kid ? Today I'll let you handle the food gathering. Happy ? I'll be handling some business on the over sides of the wood in the meantime. You should be able to gather a fair amount of food in the western part of the woods. I'll remind you for good measure, don't you go wandering too far in these woods. Good luck kid.</dial>
+
+<!-- Jour 5 - rencontre PNJ -->
+<dial num="4">Wh...Hey...
+You alone in there ?
+Do you... Would you mind if I kinda... Like... Stayed here ?
+I can't remember what happened...
+</dial>
+<!-- Jour  - -->
+<dial num="5">So wh... What's up with these woods ? I've seen some weird stuff.
+I dunno, this atmosphere just kinda freaks me out somehow.
+</dial>
+
+<!-- Jour 6 - matin -->
+<dial num="6">I think I heard an animal racking its claws last night... Must have imagined it. 
+</dial>
+
+<!-- Jour 6 - soir -->
+<dial num="7">So uh... Do you remember how you got here ? I think I was hit on the head somehow...
+Damn, I can't recall a thing, this is so frustrating.
+</dial>
+
+<!-- Jour 7 - matin -->
+<dial num="8">Don't you think we should be looking for a way out ?
+I dunno, you've been here for longer than I have, haven't you ?
+</dial>
+<!-- Jour 7 - soir -->
+<dial num="9">Hum... Yeah, just wanted to kinda apologize for this morning... You know it's just kinda hard for me to handle, all this.
+Anyway, I guess I just wanted to say thanks for your help.
+</dial>
+<!-- Jour 8 - matin -->
+<dial num="10">I think I remembered something last night. Something about a car... Or maybe a plane... Or was it a bicycle.
+</dial>
+<!-- Jour 8 - soir -->
+<dial num="11">Oh shit man, I think I saw something move in the bush today. Something like real big. I just hope it wasn't a hoar, that's one animal you don't want to mess with.
+</dial>
+<!-- Jour 9 - matin -->
+<dial num="12">Shouldn't we try going further in the woods ? I mean like, what's the point of staying here forever ?
+</dial>
+
+<!-- Jour 9 - soir -->
+<dial num="13">Anything new on your side ?
+Oh well... Figures...
+</dial>
+
+<!-- Jour 10 - matin -->
+<dial num="14">You know what ? I think we should just go for it and run through these woods. I mean like... What's the worst thing that could happen ?
+</dial>
+<!-- Jour 11 - matin -->
+<dial num="15">Oh shit man !
+Oh shit...
+I got kinda lost last night and stumbled on a weird door in the woods. And I mean seriously weird. Like big and old and... Wow man.
+And then night, like, just suddenly fell and I couldn't find my way back here.
+Shit man, the things I heard in the middle of those woods... Luckily I managed to climb in a tree and just stayed up there all night until sunrise. Oh shit man...
+</dial>
+<!-- Jour 11 - soir -->
+<dial num="16">I keep thinking about that thing I heard last night... I just want to get out of here...
+</dial>
+<!-- Jour 12 - matin -->
+<dial num="17">Oh.. Hey man... I remembered something weird about that door I saw the other night. It had several ancient-looking keyholes. Three or four of them... Isn't thatplain weird for a door ?
+</dial>
+
+<!-- Jour 12 - soir -->
+<dial num="18">You can't even imagine how glad I am to be sleeping in here rather than out there.
+Believe me, I'm never getting back later ever again.
+</dial>
+
+<!-- Jour 13 - matin -->
+<dial num="19">Mornin' man. I'll let you decide what we'll do today.
+</dial>
+
+<!-- Jour 13 - soir -->
+<dial num="20">Haven't you seen that kind of shadow that prawls around here ? It's freaking me out... I think I can see it's eyes glow in the dark sometimes from across the fire.
+</dial>
+
+<!-- Jour 14 - matin -->
+<dial num="21">Has it always been so dark ? Maybe that's just my brain playing tricks on me.
+</dial>
+<!-- Jour 14 - soir -->
+<dial num="22">I'd swear I saw a human shadow through the trees today. Then again the woods tend to stress on me out...
+</dial>
+
+<!-- Jour 15  - matin -->
+<dial num="23">Hey. Sleep well ? Ah, I'll be fine just let me know what I can do to help. Good luck !
+</dial>
+
+<!-- Choix Partir-->
+<!-- Jour 15 - coucou badguy -->
+<dial num="24">Oh ! Hey there ! I'm sorry, I seem to be kind of lost. Do you think you could just tend me a hand ?
+</dial>
+
+
+
+<!-- Choix badguy -->
+<!-- Jour 15 - soir -->
+
+<dial num="25">So... Any idea why your friend would leave so suddenly ? I mean isn't it dangerous out there past sunset ?
+Anyways, thanks so much for taking me in ! Really, it means a lot.
+</dial>
+
+<!-- Jour 16 - matin -->
+<dial num="26">Hey ! How are you this fine morning ? I guess I'll give you a hand with chores, just let me know what I should do to help out !
+</dial>
+
+<!-- Jour 16 - soir -->
+<dial num="27">Still no traces of your friend ? I'm so sorry for you, but I doubt anyone can survive out in this forest at night. You should probably abandon any hope of finding him... alive that is.
+</dial>
+
+<!-- Jour 17 - matin -->
+<dial num="28">Hello there ! Sleep alright ?
+So any idea about what should we get up to today ?
+</dial>
+
+<!-- Jour 17 - soir -->
+<dial num="29">I think I found some kind of a beast trail today. A weird one though, with impressive claw marks... I wouldn't want to be encountering the creature that left those...
+</dial>
+
+<!-- Jour 18 - matin -->
+<dial num="30">Okay, I'm up an ready for action ! What do you reckon we should try getting done today ?</dial>
+
+<!-- Jour 18 - soir -->
+<dial num="31">To be honest, I found this yellow key on waking up in the woods. Couldn't tell you for the life of me where that would have been though. It's weird, I can't recall what happened exactly on my arrival here.
+</dial>
+
+<!-- Jour 19 - matin -->
+<dial num="32">Hey there ! Managed the night ? I'll confess I got waken up in the middle of the night. I thought I could hear some kind of noise from beyond that fire. A scratching, or more like a clawing of some kind.
+</dial>
+
+<!-- Jour 19 - soir -->
+<dial num="33">I heard it again. The sound I mean. While I was out gathering, I saw a shadow rush between two trees and that sound again. I think there's something out there. Something bad.
+</dial>
+
+<!-- Jour 20 - matin -->
+<dial num="34">Oh. I'm sorry. I mean. I did warn you this would be more than probable but still. We might want to be careful going out in the woods from now on.
+</dial>
+<!-- Jour 20 - soir -->
+<dial num="35">Did you manage to find anything out about the animal that murdered your friend ? I'd advise precaution as we don't know exactly what we are dealing with. Obviously it's a dangerous creature.
+</dial>
+<!-- Jour 21 - matin -->
+<dial num="36">You heard that noise last night ? Must've been my imagination.
+</dial>
+
+<!-- Jour 21 - soir -->
+<dial num="37">Anything new on our escape plan ? I don't think we should be staying here much longer.
+</dial>
+
+<!-- Jour 22 - matin -->
+<dial num="38">The woods atmosphere is getting darker and darker. Is it just a trick of my mind or... has it always been so menacing ?
+</dial>
+
+<!-- Jour 22 - soir -->
+<dial num="39">I can't stand this place anymore... The quicker we get out of here, the better.
+</dial>
+
+<!-- Jour 23 - matin -->
+<dial num="40">I think I heard a beast prawling around the shack late last night. We'd better be watching that fire up close.
+</dial>
+
+<!-- Jour 23 - soir -->
+<dial num="41">We do have enough wood to get through the night right ? Did you double check ? I just keep getting this sense of impending doom.
+</dial>
+<!-- Jour 24 - matin -->
+<dial num="42">I don't think I slept at all last night.
+</dial>
+
+<!-- Jour 24 - soir -->
+<dial num="43">We should just run for it. That fire isn't going to hold it back forever.
+</dial>
+
+<!-- Jour 25 - matin -->
+<dial num="44">You've got a plan right ? We're going to make it right ? Right ?
+</dial>
+
+<!-- Jour 25 - soir -->
+<dial num="45">We shouldn't be here anymore. We sould have left this place long ago.</dial>
+
+<!-- Jour 26 - matin -->
+<dial num="46">This doesn't even look like the same woods anymore.</dial>
+
+<!-- Jour 26 - soir -->
+<dial num="47">I saw it. God help us. I saw it.</dial>
+
+<!-- Jour 27 - matin -->
+<dial num="48">...</dial>
+
+<!-- Jour 27 - soir -->
+<dial num="49">I'll do anything to get out of here alive.</dial>
+
+<!-- Jour 28 - matin -->
+<dial num="50">Just get us out of here already !</dial>
+
+<!-- Jour 28 - soir -->
+<dial num="51">Man, you're so useless ! We should have been long gone by now ! We're just gonna die at this place !</dial>
+
+<!-- Jour 29 - matin -->
+<dial num="52">Why is it getting so dark ?</dial>
+
+<!-- Jour 29 - soir -->
+<dial num="53">You're sure you haven't missed something ? Anything ? Uhoh ! I can hear something close ! It's coming ! It's coming ! It's coming !</dial>
+
+<!-- Jour 30 - FINAL RUN -->
+<dial num="54">What the hell !?</dial>
+<!-- Fin dialogue branche BadGuy -->
+
+
+
+<!--BRANCHE PNJ-->
+<!-- Jour 15 - soir -->
+
+<!-- A rencontré BadGuy -->
+<dial num="55">Wow ! You actually met another human being !?
+Maybe you should have brought him back here ?
+I mean, an other pair of hands couldn't have hurt ? Right ?
+</dial>
+
+<!-- N'a pas rencontré BadGuy -->
+<dial num="56">Soo... I guess nothing happened today as you stayed at the shack right ? </dial>
+
+<!-- Jour 16 - matin -->
+<dial num="57">That's weird. I could have sworn I saw a shadow through the trees right there. Must've been my imagination.</dial>
+
+<!-- Jour 16 - soir -->
+<dial num="58">You think that guy you met followed you back here and is... Like stalking us ?
+Oh man, mother threat to watch out for...</dial>
+
+<!-- Jour 17 - matin -->
+<dial num="59">Maybe you should check if the stalker isn't in the surrondings before we leave the shack today.</dial>
+
+<!-- Jour 17 - soir -->
+<dial num="60">We should probably try discussing things with the stalker. He might be willing to help us if we offered him shelter and food.</dial>
+<!-- Jour 18 - matin -->
+<dial num="61">Maybe we shouldn't actually confront the stalker. He might be violent.</dial>
+
+<!-- Jour 18 - soir -->
+<dial num="62">I honestly don't know how to deal with that stalker guy. Maybe we ought to just find the quickest way out of this damned place</dial>
+
+<!-- Jour 19 - matin -->
+<dial num="63">Ready for another attempt at getting out of here ?</dial>
+
+<!-- Jour 19 - soir -->
+<dial num="64">Oh shit ! I nearby got killed by that damned maniac ! He just poped out of nowhere and threw himself at me with a blade as long as my freaking arm ! We have to do something about the guy !</dial>
+
+<!-- Jour 20 - matin -->
+<dial num="65">Oh... Shit... I mean... I guess he was kinda looking for it but... Ugh !
+I wouldn't wish this on anyone !</dial>
+
+<!-- Jour 20 - soir -->
+<dial num="66">So... Do we have any idea what could have done that to our stalker guy ? I mean obviously it must have been some sort of... creature. But the amount of devastation on that body, what kind of animal could deal those kind of wounds !?</dial>
+
+<!-- Jour 21 - matin -->
+<dial num="67">This place is getting creepier by the minute... We really should be getting away from here !</dial>
+
+<!-- Jour 21 - soir -->
+<dial num="68">Are those eyes I can see glowing over there ?</dial>
+
+<!-- Jour 22 - matin -->
+<dial num="69">We're never going to make it.</dial>
+
+<!-- Jour 22 - soir -->
+<dial num="70">Every time I close my eyes I see that creature coming for me baring it's glistening fangs.</dial>
+
+<!-- Jour 23 - matin -->
+<dial num="71">I saw it ! I swere I saw it ! Just there ! Through that fog !</dial>
+
+<!-- Jour 23 - soir -->
+<dial num="72">Why aren't we gone already !? This place is getting unreal by the minute !</dial>
+
+<!-- Jour 24 - matin -->
+<dial num="73">Please, let's just stay here for today ! I don't want to go anywhere near that forest !</dial>
+
+<!-- Jour 24 - soir -->
+<dial num="74">Oh my god ! I can hear it ! It's just behind the wall ! I can smell it's foul breath !</dial>
+
+<!-- Jour 25 - matin -->
+<dial num="75">...</dial>
+
+<!-- Jour 25 - soir -->
+<dial num="76">...</dial>
+
+<!-- Jour 26 - matin -->
+<dial num="77">Don't you find these colors to be the most prettiest thingies you've ever seen ?</dial>
+
+<!-- Jour 26 - soir -->
+<dial num="78">If I could swim, I'd surely be a wonderful butterfly swimming through the clouds !</dial>
+
+<!-- Jour 27 - matin -->
+<dial num="79">Have you seen my shoes ?</dial>
+
+<!-- Jour 27 - soir -->
+<dial num="80">Do you think this cap looks good on me ?</dial>
+
+<!-- Jour 28 - matin -->
+<dial num="81">I should speak to my daughter more often.</dial>
+
+<!-- Jour 28 - soir -->
+<dial num="82">Do you think I can eat this piece of wood ?</dial>
+
+<!-- Jour 29 - matin -->
+<dial num="83">You should speak to mum, she always knows what to do !</dial>
+
+<!-- Jour 29 - soir -->
+<dial num="84">I'll go to sleep now.</dial>
+
+<!-- Jour 30 - Final course -->
+<dial num="85">Oh... Isn't that the weirdest of things ?</dial>
+</dials>
