@@ -4,7 +4,8 @@ using System.Collections;
 public class EventScript : MonoBehaviour {
 
 
-	public int departInt = -1, reference = -1;
+	public int reference = -1;
+	public float depart = -1;
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +17,9 @@ public class EventScript : MonoBehaviour {
 	
 	}
 
-	public int getDepartInt()
+	public float getDepart()
 	{
-		return departInt;
+		return depart;
 	}
 
 	public int getReference()

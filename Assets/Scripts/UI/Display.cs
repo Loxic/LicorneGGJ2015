@@ -9,7 +9,7 @@ public class Display : MonoBehaviour {
 
 	void Awake (){
 		displayCanvas = GameObject.Find ("DisplayCanvas");
-		textPrint = GetComponent<Text> ();
+		textPrint = GameObject.Find("DisplayText").GetComponent<Text> ();
 		}
 
 	void Start (){
@@ -19,17 +19,19 @@ public class Display : MonoBehaviour {
 	public void DisplayWood(int nb){
 		displayCanvas.SetActive (true);
 		textPrint.text = "Remaining wood : \n" + nb;
+		StartCoroutine("endTextDisplay");
 	}
 
 	public void DisplayFood(int nb){
 		displayCanvas.SetActive (true);
 		textPrint.text = "Remaining food : \n" + nb;
+		StartCoroutine("endTextDisplay");
 	}
 
-
-
-	public void EndDisplay(){
-		displayCanvas.SetActive (false);
+	IEnumerator endTextDisplay()
+	{
+		yield return new WaitForSeconds(2);
+		displayCanvas.SetActive(false);
 	}
 	
 }

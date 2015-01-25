@@ -2,21 +2,34 @@
 using UnityEngine.UI;
 using System.Collections;
 
+//CEST PAS BO MAIS CA MARCHE
 public class GetText : MonoBehaviour {
 
-	public int dialNum;
-	private XMLParsing xmlParse;
-	string dialogue;
-	Text textPrint;
-	private GameObject dialogueHandler;
+	static Text textPrint;
+	static GameObject dialogueCanvas;
+	static GameObject dialogueText;
+	static GameObject dialogueButton;
+
+	void Awake (){
+		dialogueCanvas = GameObject.Find("DialogueCanvas");
+		dialogueText = GameObject.Find("DialogueText");
+		dialogueButton = GameObject.Find ("DialogueButtonOK");
+		textPrint = dialogueText.GetComponent<Text>();
+	}
+
+	void Start (){
+		dialogueCanvas.SetActive(false);
+
+	}
 
 
-	public void Start(){
-		//dialogueHandler = GameObject.Find ("DialogueHandler");
-		textPrint = GetComponent<Text>();
-		//xmlParse = dialogueHandler.GetComponent<XMLParsing>();
+	public static void SetText(int dialNum){
+		string dialogue;
+		XMLParsing xmlParse;
+		dialogueCanvas.SetActive(true);
+		GM.displaying = true;
 		dialogue = XMLParsing.getDialogue(dialNum); 
-		textPrint.text = dialogue + "\n"; // Pour un joli affichage du bouton
+		textPrint.text = "I saved your life man ! Please go scrap some dead wood for the fire, the night will be long... And kid, if you see a key like mine, bring it back." ; // Pour un joli affichage du bouton
 	}
 
 

@@ -1,8 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{54D7A936-DEAC-4017-24ED-8CA6EF2AA9DC}") = "LicorneGGJ2015", "Assembly-CSharp-firstpass.csproj", "{B0B4D6E2-6DE0-358A-7913-808A03765C66}"
-EndProject
 Project("{54D7A936-DEAC-4017-24ED-8CA6EF2AA9DC}") = "LicorneGGJ2015", "Assembly-CSharp.csproj", "{A9E89E4B-B237-B0DD-DF7A-7839A2C24348}"
 EndProject
 Project("{54D7A936-DEAC-4017-24ED-8CA6EF2AA9DC}") = "LicorneGGJ2015", "Assembly-UnityScript-firstpass.unityproj", "{84FFB7D2-0491-0FD7-E523-8D971DF3D679}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0B4D6E2-6DE0-358A-7913-808A03765C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0B4D6E2-6DE0-358A-7913-808A03765C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0B4D6E2-6DE0-358A-7913-808A03765C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0B4D6E2-6DE0-358A-7913-808A03765C66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9E89E4B-B237-B0DD-DF7A-7839A2C24348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9E89E4B-B237-B0DD-DF7A-7839A2C24348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E89E4B-B237-B0DD-DF7A-7839A2C24348}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																GlobalSection(MonoDevelopProperties) = preSolution
+																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
